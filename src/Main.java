@@ -12,6 +12,23 @@ public class Main
         System.out.print("Enter your party Affiliation: [R,D,I]: ");
         partyAffil = in.nextLine();
 
+        if(partyAffil.equalsIgnoreCase("R"))
+        {
+            System.out.println("You are a Republican!");
+        }
+        else if (partyAffil.equalsIgnoreCase("D"))
+        {
+            System.out.println("You are a democrat!");
+        }
+        else if (partyAffil.equalsIgnoreCase("I"))
+        {
+            System.out.println("You are an Independent!");
+        }
+        else
+        {
+            System.out.println("You are not one of the listed party Affiliations!");
+        }
+
     }
 
 }
