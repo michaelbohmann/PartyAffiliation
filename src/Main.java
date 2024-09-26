@@ -26,7 +26,7 @@ public class Main
         }
         else
         {
-            System.out.println("You are not one of the listed party Affiliations!");
+            System.out.println("I do not know the " + partyAffil + " party affiliation!");
         }
 
     }
